@@ -1,0 +1,6 @@
+{
+    "files.associations": {
+        "*.html.eex": "html",
+        "string": "cpp"
+    }
+}
