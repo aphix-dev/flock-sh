@@ -1,4 +1,5 @@
 #include "module_registry.h"
+#include "module.h"
 #include "custom/fsh.h"
 
 void ModuleRegistry::InitModuleRegistry()
