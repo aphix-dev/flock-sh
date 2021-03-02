@@ -10,4 +10,4 @@ void loop();
 
 void readln();
 
-ModuleRegistry GModuleRegistry;
+extern ModuleRegistry GModuleRegistry;

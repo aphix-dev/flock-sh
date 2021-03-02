@@ -1,6 +1,8 @@
 #include "shell.h"
 #include "lexer.h"
 
+ModuleRegistry GModuleRegistry;
+
 void loop() {
   for(;;)
   {
