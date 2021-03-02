@@ -6,7 +6,7 @@ ModuleRegistry GModuleRegistry;
 void loop() {
   for(;;)
   {
-    std::cout << PROMPT << ' ';
+    std::cout << std::endl << PROMPT << ' ';
 
     readln();
   }

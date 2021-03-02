@@ -20,14 +20,13 @@ namespace lexer {
             if(cur == ' ') {
                 tokens.push_back("");
                 curToken++;
-                continue;
+            } else {
+                tokens[curToken] += cur;
             }
-            tokens[curToken] += cur;
         }
 
         Util::print_vector(tokens);
 
-        auto module = tokens[0];
-        auto cmd = tokens[1];
+        // call to parser
     }
 }
